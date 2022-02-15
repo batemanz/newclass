@@ -1,0 +1,151 @@
+* {
+    /* global adjustments */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* selects background color of intire body */
+    background-color: #d9dcd6;
+}
+
+header {
+    /* sets global settings for everything within the header class */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    /* sets all h1 elements font size 48px and displaying in inline block format */
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    /* changes the color of seo in horiseo h1 header */
+    color: #d9dcd6;
+}
+
+header nav{
+    /* sets parameters for all div elements within the header class */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul li {
+    /* shows the undordered list in a line block format with a left margin set, removes bullet points */
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+a {
+    /* sets all a link elements color to white and text-decoration to remove underline */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    /* sets all p elements font size to 16px  */
+    font-size: 16px;
+}
+
+h3 {
+    /* sets all h3 elements to center align with a bottom margin of 10px */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hero {
+    /* sets gloabal parameters of all things inside hero class */
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    /* aligns objects left and sets right margin */
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    /* aligns object to the right and sets left margin */
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    /* sets global parameters within the content class */
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content article {
+    /* sets parameters over div elements within the content class */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    /* adjusts max height of images in class content to to 200px */
+    max-height: 200px;
+}
+
+.content h2 {
+    /* sets the font size an bottom margin of h2 elements in the content class */
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.benefits {
+    /* sets global parameters within the benifits class */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    color: #ffffff;
+}
+
+.benefits article {
+    /* sets bottom margin of section elements within the benifits class*/
+    margin-bottom: 32px;
+}
+
+.benefits img {
+    /* displays images in the class benifits in block format with set margin and max width */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    /* fonts, align center, padding for all of footer */
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    /* sets font size of footer header */
+    font-size: 20px;
+}
